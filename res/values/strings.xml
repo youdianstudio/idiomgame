@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">成语大闯关</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">成语大闯关</string>
+    <string name="level1">入门级</string>
+    <string name="level2">进阶级</string>
+    <string name="level3">专家级</string>
+    <string name="result_board">成绩榜</string>
+    <string name="result_note">点击成语查看读音,出处及释义.</string>
+    <string name="search_result">查询结果</string>
+    <string name="dict">成语词典</string>
+    <string name="dict_note" formatted="false">请输入完整成语如\'和蔼可亲\'或成语拼音首字母，如\'hakq\'</string>
+</resources>

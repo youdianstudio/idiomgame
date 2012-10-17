@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+  
+   <RelativeLayout 
+       
+       style="@style/result_idiom_layout"
+       android:id="@+id/result_idiom_1"
+       android:background="@drawable/result_idiom_top_layout"
+       >
+       <TextView style="@style/result_idiom_text"
+           android:id="@+id/result_idiom_text_1"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="10dip"
+           android:text="呵呵妹妹"
+           />
+       <ImageView style="@style/result_idiom_imageview"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"          
+           />
+       <TextView style="@style/result_idiom_text"
+           android:id="@+id/result_idiom_judge_1"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="45dip"
+           android:text="正确"
+           android:textColor="@color/red"
+           
+           />
+       
+   </RelativeLayout> 
+      <RelativeLayout 
+       style="@style/result_idiom_layout"
+       android:id="@+id/result_idiom_2"
+       android:background="@drawable/result_idiom_mid_layout"
+       >
+       <TextView style="@style/result_idiom_text"
+           android:id="@+id/result_idiom_text_2"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="10dip"
+           
+           />
+       <ImageView style="@style/result_idiom_imageview"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"          
+           />
+       <TextView style="@style/result_idiom_text"
+           android:id="@+id/result_idiom_judge_2"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="45dip"
+           android:textColor="@color/red"
+           
+           />
+      </RelativeLayout>
+            <RelativeLayout 
+       style="@style/result_idiom_layout"
+       android:id="@+id/result_idiom_3"
+       android:background="@drawable/result_idiom_mid_layout"
+       >
+       <TextView style="@style/result_idiom_text"
+           android:id="@+id/result_idiom_text_3"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="10dip"
+           
+           />
+       <ImageView style="@style/result_idiom_imageview"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"          
+           />
+       <TextView style="@style/result_idiom_text"
+           android:id="@+id/result_idiom_judge_3"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="45dip"
+           android:textColor="@color/red"
+           
+           />
+      </RelativeLayout>  
+            <RelativeLayout 
+       style="@style/result_idiom_layout"
+       android:id="@+id/result_idiom_4"
+       android:background="@drawable/result_idiom_mid_layout"
+       >
+       <TextView style="@style/result_idiom_text"
+           android:id="@+id/result_idiom_text_4"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="10dip"
+           
+           />
+          <ImageView style="@style/result_idiom_imageview"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"          
+           />
+       <TextView style="@style/result_idiom_text"
+           android:id="@+id/result_idiom_judge_4"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="45dip"
+           android:textColor="@color/red"
+           
+           />
+      </RelativeLayout>  
+            <RelativeLayout 
+       style="@style/result_idiom_layout"
+       android:id="@+id/result_idiom_5"
+       android:background="@drawable/result_idiom_mid_layout"
+       >
+       <TextView style="@style/result_idiom_text"
+           android:id="@+id/result_idiom_text_5"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="10dip"
+           
+           />
+         <ImageView style="@style/result_idiom_imageview"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"          
+           />
+       <TextView style="@style/result_idiom_text"
+           android:id="@+id/result_idiom_judge_5"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="45dip"
+           android:textColor="@color/red"
+           
+           />
+      </RelativeLayout>  
+            <RelativeLayout 
+       style="@style/result_idiom_layout"
+       android:id="@+id/result_idiom_6"
+       android:background="@drawable/result_idiom_mid_layout"
+       >
+       <TextView style="@style/result_idiom_text"
+           android:id="@+id/result_idiom_text_6"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="10dip"
+           
+           />
+       <ImageView style="@style/result_idiom_imageview"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"          
+           />
+       <TextView style="@style/result_idiom_text"
+           android:id="@+id/result_idiom_judge_6"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="45dip"
+           android:textColor="@color/red"
+           
+           />
+      </RelativeLayout>  
+   </LinearLayout>

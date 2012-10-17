@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/share_bg_color"
+    >
+<RelativeLayout 
+    android:id="@+id/result_title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/title_background"
+    >
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@color/white"
+        android:text="@string/result_board"
+         />
+    <Button 
+        android:id="@+id/result_close"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/close"
+        android:background="@drawable/btn_refresh_bg"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="10dip"
+        
+        />
+</RelativeLayout>
+<LinearLayout 
+        android:id="@+id/result_line_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:orientation="vertical"
+        android:layout_below="@id/result_title_bar"
+        >
+    <View android:background="#ffa7b5c7" android:layout_width="match_parent" android:layout_height="1dip"/>
+    <View android:background="@color/white" android:layout_width="match_parent" android:layout_height="1dip"/>
+</LinearLayout>
+<LinearLayout 
+    android:id="@+id/result_score_linear"
+    android:layout_width="match_parent"
+    android:layout_height="40dip"
+    android:layout_marginTop="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_below="@id/result_line_1"
+    android:orientation="horizontal"
+    android:background="@color/azure"
+    >
+    <View android:background="#ffa7b5c7" android:layout_height="match_parent" android:layout_width="1dip"/>
+    <View android:background="@color/white" android:layout_height="match_parent" android:layout_width="1dip"/>
+ <ImageView 
+     android:id="@+id/result_score_emotion"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:src="@drawable/grade2"
+     android:background="#00000000"
+     />
+ <TextView 
+     android:id="@+id/result_score_text"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="5dip"
+     android:layout_gravity="center_vertical"
+     android:textColor="@color/black"
+     android:layout_weight="1"
+     android:textSize="16sp"
+     android:text="恭喜你."
+     />
+    <View android:background="#ffa7b5c7" android:layout_height="match_parent" android:layout_width="1dip"/>
+    <View android:background="@color/white" android:layout_height="match_parent" android:layout_width="1dip"/>
+
+</LinearLayout>
+<LinearLayout 
+        android:id="@+id/result_line_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical"
+        android:layout_below="@id/result_score_linear"
+        >
+    <View android:background="#ffa7b5c7" android:layout_width="match_parent" android:layout_height="1dip"/>
+    <View android:background="@color/white" android:layout_width="match_parent" android:layout_height="1dip"/>
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/result_line_2"
+    android:layout_marginTop="10dip"
+    android:orientation="vertical"
+    >
+<include layout="@layout/result_idiom"
+    />
+    
+</LinearLayout>
+<TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:textSize="10sp"
+    android:textColor="@color/gray"
+    android:text="@string/result_note"
+    android:paddingRight="5dip"
+    android:paddingBottom="5dip"
+    />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="title_bar_height">45dip</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="result_idiom_layout_height">40dip</dimen>
+    <dimen name="normal_margin">10dip</dimen>
+</resources>
